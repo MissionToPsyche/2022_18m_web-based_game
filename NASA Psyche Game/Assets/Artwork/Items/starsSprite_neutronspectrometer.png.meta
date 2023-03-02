@@ -108,19 +108,19 @@ TextureImporter:
       name: starsSprite_neutronspectrometer_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 5
         y: 3
-        width: 41
-        height: 39
+        width: 42
+        height: 43
       alignment: 9
-      pivot: {x: 0.6343051, y: 0.051903125}
+      pivot: {x: 0.6429942, y: 0.023479473}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d38f2416f94fab409def63a87968577
-      internalID: -674362141
+      spriteID: 85e9e77393f5c204b91689158ccf2a0d
+      internalID: 1105467798
       vertices: []
       indices: 
       edges: []
@@ -129,19 +129,19 @@ TextureImporter:
       name: starsSprite_neutronspectrometer_1
       rect:
         serializedVersion: 2
-        x: 47
+        x: 52
         y: 3
-        width: 39
+        width: 42
         height: 40
       alignment: 9
-      pivot: {x: 0.6154108, y: 0.050378002}
+      pivot: {x: 0.64273596, y: 0.025112689}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21d7874e22f50d14e97aa43a4c2174bd
-      internalID: -1197873414
+      spriteID: 970c3ee55c7621d4aba6e4b339d9a37e
+      internalID: -1056477183
       vertices: []
       indices: 
       edges: []
@@ -150,40 +150,40 @@ TextureImporter:
       name: starsSprite_neutronspectrometer_2
       rect:
         serializedVersion: 2
-        x: 91
+        x: 98
         y: 3
-        width: 39
+        width: 43
         height: 37
       alignment: 9
-      pivot: {x: 0.6153801, y: 0.05423203}
+      pivot: {x: 0.6516766, y: 0.026776636}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e162cd5fbe15a2d47a00e731fe44f500
-      internalID: 133215033
+      spriteID: b1849965def51f54bb369744bfd5f4e5
+      internalID: -18811386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starsSprite_neutronspectrometer_5
+      name: starsSprite_neutronspectrometer_4
       rect:
         serializedVersion: 2
-        x: 132
+        x: 144
         y: 3
-        width: 43
-        height: 37
+        width: 44
+        height: 38
       alignment: 9
-      pivot: {x: 0.62787116, y: 0.05446706}
+      pivot: {x: 0.659806, y: 0.02628233}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3adc12838ad347a47b6ecb66737aeaf3
-      internalID: -503080781
+      spriteID: f0a6925f832386c40970c46cdec01262
+      internalID: 1224001038
       vertices: []
       indices: 
       edges: []
@@ -199,12 +199,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      starsSprite_neutronspectrometer_0: -674362141
-      starsSprite_neutronspectrometer_5: -503080781
-      starsSprite_neutronspectrometer_4: 1984381694
-      starsSprite_neutronspectrometer_1: -1197873414
-      starsSprite_neutronspectrometer_3: -205858897
-      starsSprite_neutronspectrometer_2: 133215033
+      starsSprite_neutronspectrometer_0: 1105467798
+      starsSprite_neutronspectrometer_5: -51729931
+      starsSprite_neutronspectrometer_4: 1224001038
+      starsSprite_neutronspectrometer_1: -1056477183
+      starsSprite_neutronspectrometer_3: 939657565
+      starsSprite_neutronspectrometer_2: -18811386
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
