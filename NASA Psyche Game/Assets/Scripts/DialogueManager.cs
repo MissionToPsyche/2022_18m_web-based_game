@@ -22,7 +22,7 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(Dialogue dialogue) {
         diaBox.SetActive(true);
         nameText.text = dialogue.name;
-        Debug.Log("Convo started w/: " + dialogue.name);
+        // Debug.Log("Convo started w/: " + dialogue.name);
 
         sentences.Clear();
 
@@ -40,12 +40,12 @@ public class DialogueManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
-        Debug.Log("Sentence: " + sentence);
+        // Debug.Log("Sentence: " + sentence);
         dialogueText.text = sentence;
     }
 
     void EndDialogue() {
-        Debug.Log("End of convo");
+        // Debug.Log("End of convo");
         diaBox.SetActive(false);
     }
 }

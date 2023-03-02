@@ -12,16 +12,18 @@ public class ScoreManager : MonoBehaviour
 
     public int score = 0;
 
+    public int endScore;
+
     private void Awake() {
         instance = this;
     }
     
     void Start() {
-        scoreText.text = "Items collected: " + score.ToString() + "/2";
+        scoreText.text = "Items collected: " + score.ToString() + "/" + endScore.ToString();
     }
 
     public void AddPoint() {
         score += 1;
-        scoreText.text = "Items collected: " + score.ToString() + "/2";
+        scoreText.text = "Items collected: " + score.ToString() + "/" + endScore.ToString();
     }
 }
