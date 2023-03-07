@@ -135,6 +135,10 @@ PrefabInstance:
       value: HighGainAntenna
       objectReference: {fileID: 0}
     - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: b23ee0b20ea4bde4cbaed9db7ff3fd2a, type: 3}
+    - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: type
       value: 1
       objectReference: {fileID: 0}
@@ -690,6 +694,10 @@ PrefabInstance:
       value: SPT140Thruster
       objectReference: {fileID: 0}
     - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: af730fca1102f4347a74bd5649ec1073, type: 3}
+    - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: type
       value: 1
       objectReference: {fileID: 0}
@@ -937,6 +945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Imager
       objectReference: {fileID: 0}
+    - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 9bbe111af1b45de44b0aafec015bee81, type: 3}
     - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: itemName
       value: Multispectral Imager
@@ -2090,6 +2102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DSOC
       objectReference: {fileID: 0}
+    - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 7e08ad5e48d9b91428c615086b4d114e, type: 3}
     - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: itemName
       value: Deep Space Optical Communication (DSOC)
@@ -14027,6 +14043,10 @@ PrefabInstance:
       value: GammaSpectrometer
       objectReference: {fileID: 0}
     - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 36e88bea1ccbd1a4ca8e7bb8aafc3ffb, type: 3}
+    - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: name
       value: Gamma Spectrometer
       objectReference: {fileID: 0}
@@ -14190,6 +14210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MagEU
       objectReference: {fileID: 0}
+    - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: e874b2938c33961488ccf6e23fe75b12, type: 3}
     - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: type
       value: 1
@@ -14485,6 +14509,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MagnometerBoom
       objectReference: {fileID: 0}
+    - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 4382b1d5eff3a0748b5824e279a4940e, type: 3}
     - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: itemName
       value: Magnometer Boom
@@ -15383,6 +15411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarTracker
       objectReference: {fileID: 0}
+    - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 9027e1833d070a94b88424d6ce25a634, type: 3}
     - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: itemName
       value: Star Tracker
@@ -122363,6 +122395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NeutronSpectrometer
       objectReference: {fileID: 0}
+    - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 500495ae0f3c2b44293ab42ee27f3dd0, type: 3}
     - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: itemName
       value: Neutron Spectrometer
