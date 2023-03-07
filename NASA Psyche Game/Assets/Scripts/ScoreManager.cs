@@ -22,8 +22,8 @@ public class ScoreManager : MonoBehaviour
         scoreText.text = "Items collected: " + score.ToString() + "/" + endScore.ToString();
     }
 
-    public void AddPoint() {
-        score += 1;
+    public void AddPoint(int point) {
+        score += point;
         scoreText.text = "Items collected: " + score.ToString() + "/" + endScore.ToString();
     }
-}
+} 

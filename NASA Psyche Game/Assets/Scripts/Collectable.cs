@@ -5,8 +5,19 @@ using UnityEngine;
 public class Collectable : Collidable {
     protected bool collected;
 
+    public CollectableType type;
+
+    public Sprite icon;
+
     protected override void OnCollide(Collider2D coll) {
-        if (coll.name == "Psychenaut") {
+        // if (coll.name == "Psychenaut") {
+        //     OnCollect();
+        // }
+
+        Player player = coll.GetComponent<Player>();
+
+        if (player) {
+            player.inventory.Add(this);
             OnCollect();
         }
     }
@@ -14,4 +25,8 @@ public class Collectable : Collidable {
     protected virtual void OnCollect() {
         collected = true;
     }
+}
+
+public enum CollectableType {
+    NONE, PART
 }

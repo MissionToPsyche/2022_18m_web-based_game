@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8481929208185003220}
   - component: {fileID: 8481929208185003221}
   m_Layer: 0
-  m_Name: Chest
+  m_Name: Item
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -5569065
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 2
   m_Sprite: {fileID: -1914915890, guid: 027bf0653cad6544ebfd1d7a445b3079, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &8481929208185003223
@@ -139,8 +139,11 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
-  emptyChest: {fileID: 0}
-  chestValueAmount: 1
+  type: 1
+  icon: {fileID: 0}
+  itemValueAmount: 1
+  itemName: 
+  description: []
 --- !u!114 &8481929208185003221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,12 +156,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7d8b4031d1eb34ab9a5fd60b430e45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    name: Chest 1
-    sentences:
-    - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua.
-    - 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-      aliquip ex ea commodo consequat. '
-    - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-      eu fugiat nulla pariatur.
