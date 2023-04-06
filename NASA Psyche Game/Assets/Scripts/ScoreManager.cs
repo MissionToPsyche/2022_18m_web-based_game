@@ -26,4 +26,14 @@ public class ScoreManager : MonoBehaviour
         score += point;
         scoreText.text = "Items collected: " + score.ToString() + "/" + endScore.ToString();
     }
+
+    public void DisableText() {
+        // Debug.Log("text disabled");
+        scoreText.gameObject.SetActive(false);
+    }
+
+    public void EnableText() {
+        // Debug.Log("text enabled");
+        scoreText.gameObject.SetActive(true);
+    }
 } 
