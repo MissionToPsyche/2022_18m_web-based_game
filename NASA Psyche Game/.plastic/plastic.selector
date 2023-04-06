@@ -1,4 +1,0 @@
-repository "INF191UCI@INF191_NASA_Psyche_UCI@cloud"
-  path "/"
-    br "/main"
-    co "/main"
