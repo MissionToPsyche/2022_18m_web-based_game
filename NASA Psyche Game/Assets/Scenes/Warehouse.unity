@@ -125109,6 +125109,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Psychenaut
       objectReference: {fileID: 0}
+    - target: {fileID: 2924969544916271733, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924969544916271734, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924969544916271734, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -2031926651
+      objectReference: {fileID: 0}
     - target: {fileID: 2924969544916271737, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
       propertyPath: m_RootOrder
       value: 3
