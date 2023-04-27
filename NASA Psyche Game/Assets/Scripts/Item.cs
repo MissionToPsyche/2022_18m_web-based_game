@@ -7,13 +7,29 @@ public class Item : Collectable
 {
     public int itemValueAmount = 1;
     public string itemName;
+    public int itemID;
 
     [TextArea(3, 10)]
     public string[] description;
 
+    protected override void OnCollide(Collider2D coll) {
+        base.setID(itemID);
+        // Debug.Log("collectableID: " + this.collectableID);
+
+        Player player = coll.GetComponent<Player>();
+
+        if (player) {
+            player.inventory.Add(this);
+            OnCollect();
+        }
+    }
+
     protected override void OnCollect() {
         if (!collected) {
             collected = true;
+
+            // base.setID(itemID);
+            // Debug.Log("collectableID: " + this.collectableID);
 
             // GetComponent<Renderer>().enabled = !GetComponent<Renderer>().enabled;
 

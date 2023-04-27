@@ -9,6 +9,8 @@ public class Collectable : Collidable {
 
     public Sprite icon;
 
+    public int collectableID;
+
     protected override void OnCollide(Collider2D coll) {
         // if (coll.name == "Psychenaut") {
         //     OnCollect();
@@ -24,6 +26,10 @@ public class Collectable : Collidable {
 
     protected virtual void OnCollect() {
         collected = true;
+    }
+
+    public void setID(int id) {
+        this.collectableID = id;
     }
 }
 

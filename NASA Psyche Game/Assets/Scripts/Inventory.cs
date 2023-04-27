@@ -43,18 +43,21 @@ public class Inventory
     }
 
     public void Add(Collectable item) {
-        foreach(Slot slot in slots) {
-            if (slot.type == item.type && slot.CanAddItem()) {
-                slot.AddItem(item);
-                return;
-            }
-        }
+        // foreach(Slot slot in slots) {
+        //     if (slot.type == item.type && slot.CanAddItem()) {
+        //         slot.AddItem(item);
+        //         return;
+        //     }
+        // }
 
-        foreach(Slot slot in slots) {
-            if (slot.type == CollectableType.NONE) {
-                slot.AddItem(item);
-                return;
-            }
-        }
+        // foreach(Slot slot in slots) {
+        //     if (slot.type == CollectableType.NONE) {
+        //         slot.AddItem(item);
+        //         return;
+        //     }
+        // }
+        // Debug.Log("Adding item at: " + item.collectableID);
+        slots[item.collectableID].AddItem(item);
+        return;
     }
 }
