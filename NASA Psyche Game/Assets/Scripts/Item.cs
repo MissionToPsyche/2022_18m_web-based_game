@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [System.Serializable]
 public class Item : Collectable
@@ -11,6 +12,8 @@ public class Item : Collectable
 
     [TextArea(3, 10)]
     public string[] description;
+
+    public Sprite itemIcon;
 
     protected override void OnCollide(Collider2D coll) {
         base.setID(itemID);
@@ -35,7 +38,7 @@ public class Item : Collectable
 
             FindObjectOfType<ScoreManager>().AddPoint(itemValueAmount);
 
-            GetComponent<DialogueTrigger>().TriggerDialogue(itemName, description);
+            GetComponent<DialogueTrigger>().TriggerDialogue(itemName, description, itemIcon);
 
             Destroy(this.gameObject);
         }

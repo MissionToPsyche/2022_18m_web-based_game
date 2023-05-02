@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class Dialogue
@@ -9,8 +10,16 @@ public class Dialogue
 
     public string[] sentences;
 
+    public Sprite itemIcon;
+
     public Dialogue(string diagTitle, string[] diagBody) {
         name = diagTitle;
         sentences = diagBody;
+    }
+
+    public Dialogue(string diagTitle, string[] diagBody, Sprite icon) {
+        name = diagTitle;
+        sentences = diagBody;
+        itemIcon = icon;
     }
 }

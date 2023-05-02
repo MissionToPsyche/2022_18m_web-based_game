@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class DialogueManager : MonoBehaviour
@@ -10,6 +11,7 @@ public class DialogueManager : MonoBehaviour
 
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
+    public Image itemIcon;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +24,15 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(Dialogue dialogue) {
         diaBox.SetActive(true);
         nameText.text = dialogue.name;
+        
+        if (dialogue.itemIcon != null) {
+            itemIcon.sprite = dialogue.itemIcon;
+            itemIcon.color = new Color(1, 1, 1, 1);
+        }
+        else {
+            itemIcon.color = new Color(1, 1, 1, 0);
+        }
+        
         // Debug.Log("Convo started w/: " + dialogue.name);
 
         sentences.Clear();
