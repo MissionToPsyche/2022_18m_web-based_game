@@ -37,7 +37,6 @@ public class DragAndConnectObject : MonoBehaviour
                 //check if same color
                 if (transform.parent.name.Equals(collider.transform.parent.name))
                 {
-                    MinigameController.AddVictoryPoints(1);
                     SuccesfulConnection(collider);
                 }
                 return;
@@ -79,6 +78,9 @@ public class DragAndConnectObject : MonoBehaviour
 
     void SuccesfulConnection(Collider2D matchingWire)
     {
+        //Update score
+        GameObject.Find("MiniGameController").GetComponent<MinigameController>().AddVictoryPoints(1);
+
         //lock wire
         Destroy(this);
 
@@ -86,4 +88,3 @@ public class DragAndConnectObject : MonoBehaviour
         Destroy(matchingWire);
     }
 }
-

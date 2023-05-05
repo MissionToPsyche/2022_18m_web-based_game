@@ -2,19 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
+using UnityEngine.SceneManagement;
 
 public class VictoryMessage : MonoBehaviour
 {
-    public TMPro.TextMeshProUGUI textMeshPro;
+    
     // Start is called before the first frame update
     void Start()
     {
-        textMeshPro.text = " ";
+        gameObject.SetActive(false);
     }
 
     public void display()
     {
-        textMeshPro.text = "     Success! \n\n All Wires Fixed!";
+        gameObject.SetActive(true);
+    }
+
+    private void OnMouseUp()
+    {
+        SceneManager.LoadScene("Warehouse");
     }
 }

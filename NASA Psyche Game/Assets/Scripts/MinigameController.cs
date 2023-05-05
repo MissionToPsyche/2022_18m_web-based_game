@@ -2,19 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class MinigameController
+public class MinigameController : MonoBehaviour
 {
-    public static int targetVictoryPoints;
-    static int victoryPoints = 0;
+    public VictoryMessage victoryMessage;
 
-    public static void AddVictoryPoints(int addedPoints)
+    public int targetVictoryPoints;
+    int victoryPoints = 0;
+
+
+    // Start is called before the first frame update
+    void Start()
     {
-        MinigameController.victoryPoints += addedPoints;
+
+    }
+
+    public void AddVictoryPoints(int addedPoints)
+    {
+        victoryPoints += addedPoints;
 
         CheckVictory();
     }
 
-    static void CheckVictory()
+    void CheckVictory()
     {
         //if reached victory condition
         if (victoryPoints == targetVictoryPoints)
@@ -24,8 +33,9 @@ public static class MinigameController
         }
     }
 
-    static void DisplayVictory()
+    void DisplayVictory()
     {
-        GUI.Label(new Rect(10, 10, 100, 20), "You win!");
+        victoryMessage.display();
     }
 }
+
