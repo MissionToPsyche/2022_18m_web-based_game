@@ -11,8 +11,8 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        // loads level with the next index in the build manages (menu = 0, controls = 1, warehouse = 2)
-        SceneManager.LoadScene(2);
+        // loads level with the next index in the build manages (Main_Menu = 0, Controls_Menu = 1, Disclaimer_Menu = 2, Warehouse = 3, Basic_Wiring = 4)
+        SceneManager.LoadScene("Warehouse");
         FindObjectOfType<ScoreManager>().EnableText();
     }
 
@@ -26,7 +26,11 @@ public class MainMenu : MonoBehaviour
     {
         // Temporary, once more complicated controls/tutorials need to be added,
         //   edit this function
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Controls_Menu");
         //SceneManager.LoadScene("Settings");
+    }
+
+    public void OpenDisclaimer() {
+        SceneManager.LoadScene("Disclaimer_Menu");
     }
 }

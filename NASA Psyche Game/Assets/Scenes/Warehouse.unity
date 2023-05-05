@@ -744,7 +744,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5058849220979065832, guid: 5f3c9dc7ab247d24abb62fbd64183e21, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -71
+      value: -77.4
       objectReference: {fileID: 0}
     - target: {fileID: 5058849220979065832, guid: 5f3c9dc7ab247d24abb62fbd64183e21, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3563,7 +3563,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 217.3633, y: -46.91199}
+  m_AnchoredPosition: {x: 201, y: -62.909}
   m_SizeDelta: {x: 321.4571, y: 50}
   m_Pivot: {x: 0.5000001, y: 0.5000014}
 --- !u!114 &480703670
@@ -16286,7 +16286,7 @@ PrefabInstance:
     - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: itemIcon
       value: 
-      objectReference: {fileID: 21300000, guid: 7ab13aa090d7b2b49b9fe7e4bdd54e9a, type: 3}
+      objectReference: {fileID: 21300000, guid: bc09ba18549366f4c9b364950d13a86e, type: 3}
     - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: itemName
       value: Gamma Spectrometer
@@ -16465,7 +16465,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: f8972e178521ded4d87c9462d6563a99, type: 3}
     - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: itemName
-      value: Magnometer Electronics
+      value: Magnetometer Electronics
       objectReference: {fileID: 0}
     - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: description.Array.size
@@ -16695,8 +16695,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.9922, y: 0.5993}
-  m_SizeDelta: {x: 1565.6787, y: 929.3468}
+  m_AnchoredPosition: {x: -0.9922, y: -6.0797}
+  m_SizeDelta: {x: 1565.6787, y: 915.9888}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &927029685
 MonoBehaviour:
@@ -16845,7 +16845,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 4382b1d5eff3a0748b5824e279a4940e, type: 3}
     - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: itemName
-      value: Magnometer Sensor
+      value: Magnetometer Sensor
       objectReference: {fileID: 0}
     - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: description.Array.size
@@ -18386,7 +18386,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8481929208185003220, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: description.Array.data[0]
-      value: Placeholder
+      value: Attitude knowledge for the Psyche Spacecraft is provided by star trackers
+        and a Sun sensor. Startrackers determine the location and attitude of a satellite
+        by analyzing the placement of the surrounding stars relative to the payload.
+        In order to do this, the star tracker must obtain an image of the stars,
+        measure their apparent position in the reference frame of the spacecraft,
+        and identify the stars so their position can be compared with their known
+        absolute position from a star catalog.
       objectReference: {fileID: 0}
     - target: {fileID: 8481929208185003221, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: dialogue.name
@@ -117340,7 +117346,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f8972e178521ded4d87c9462d6563a99, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bc09ba18549366f4c9b364950d13a86e, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -119077,6 +119083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1886799266}
   - component: {fileID: 1886799267}
+  - component: {fileID: 1886799268}
   m_Layer: 8
   m_Name: fire_extinguisher
   m_TagString: Untagged
@@ -119151,6 +119158,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1886799268
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886799265}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0eb7f128b755e79458950888eebb28b0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1906782859
 GameObject:
   m_ObjectHideFlags: 0
@@ -120753,11 +120780,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2924969544916271737, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.33
+      value: 7.84
       objectReference: {fileID: 0}
     - target: {fileID: 2924969544916271737, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -18.424
+      value: -12.89
       objectReference: {fileID: 0}
     - target: {fileID: 2924969544916271737, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
       propertyPath: m_LocalPosition.z

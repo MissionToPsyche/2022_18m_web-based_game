@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c3a7fa4b758b57e479500d9e21c23297
+guid: c8e1e67ef63def942ba5224cfca29c03
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: glareSprite_mission-objective-sign_0
+      name: glareSprite_mission-objective-sign (1)_0
       rect:
         serializedVersion: 2
         x: 4
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1caa45bf715f73b4086fc31a79dac61a
-      internalID: -228228739
+      spriteID: 3066bde053417434e9c06feede506878
+      internalID: -634150007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: glareSprite_mission-objective-sign_1
+      name: glareSprite_mission-objective-sign (1)_1
       rect:
         serializedVersion: 2
         x: 154
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af0ec698400ecb248a6ad6f5062fd309
-      internalID: -1581690370
+      spriteID: 60284a0974f6fb44fb219cfa394c48eb
+      internalID: -1032391343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: glareSprite_mission-objective-sign_2
+      name: glareSprite_mission-objective-sign (1)_2
       rect:
         serializedVersion: 2
         x: 304
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 570e65d219a472e458e2631ff3dfc349
-      internalID: -1736827362
+      spriteID: 2bce9fe93c83f1849a60b61aed91fdb6
+      internalID: 719751602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: glareSprite_mission-objective-sign_3
+      name: glareSprite_mission-objective-sign (1)_3
       rect:
         serializedVersion: 2
         x: 454
@@ -194,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28c47f8092c9ac14794a2d25fd48b701
-      internalID: -1091452193
+      spriteID: dd4ca11834e7fe140ba9dbd21e073867
+      internalID: -1325437701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: glareSprite_mission-objective-sign_4
+      name: glareSprite_mission-objective-sign (1)_4
       rect:
         serializedVersion: 2
         x: 604
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d91630863865f047a3f6c7ca4904995
-      internalID: 1204905047
+      spriteID: e48b397df6be6ac48a9a0acd2fc96eda
+      internalID: 1302752379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: glareSprite_mission-objective-sign_5
+      name: glareSprite_mission-objective-sign (1)_5
       rect:
         serializedVersion: 2
         x: 754
@@ -236,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 829c6a6bc5f9e894593dd9e8254d3df1
-      internalID: 1724242255
+      spriteID: a133a9c46664ede4c995b332e9a20830
+      internalID: 874264646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: glareSprite_mission-objective-sign_6
+      name: glareSprite_mission-objective-sign (1)_6
       rect:
         serializedVersion: 2
         x: 4
@@ -257,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7371526907e12d438cadff5bde0927c
-      internalID: -772389950
+      spriteID: b98cebcbd7241c84e9c8acabc3f7e76a
+      internalID: 1232439016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: glareSprite_mission-objective-sign_7
+      name: glareSprite_mission-objective-sign (1)_7
       rect:
         serializedVersion: 2
         x: 154
@@ -278,14 +278,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fe624a92224613409942fdba3ba68c7
-      internalID: -218016355
+      spriteID: 1c455b9caba85224ab49ff994a6da080
+      internalID: 1048404185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: glareSprite_mission-objective-sign_8
+      name: glareSprite_mission-objective-sign (1)_8
       rect:
         serializedVersion: 2
         x: 304
@@ -299,14 +299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42eceb399b68d824587fd7e06b8761da
-      internalID: -929545046
+      spriteID: fcfd04df457e5b34abb746798d5adb68
+      internalID: 1758973509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: glareSprite_mission-objective-sign_9
+      name: glareSprite_mission-objective-sign (1)_9
       rect:
         serializedVersion: 2
         x: 454
@@ -320,113 +320,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60643dae9f0702d43ad93b1e7c5f1a99
-      internalID: 1970636175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: glareSprite_mission-objective-sign_11
-      rect:
-        serializedVersion: 2
-        x: 604
-        y: 229
-        width: 142
-        height: 118
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3b844050f154dc47aadcb25d81cf6b6
-      internalID: 675506018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: glareSprite_mission-objective-sign_13
-      rect:
-        serializedVersion: 2
-        x: 754
-        y: 229
-        width: 142
-        height: 118
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dcfd3f07057c5544cbbf09131071275d
-      internalID: -293321980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: glareSprite_mission-objective-sign_15
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 79
-        width: 142
-        height: 118
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fdddc8b0d6a9a6546bde6667ae1b0d84
-      internalID: -1615024582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: glareSprite_mission-objective-sign_16
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 79
-        width: 142
-        height: 118
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e978e4538c964b41b7818e561878f00
-      internalID: -423645426
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: glareSprite_mission-objective-sign_17
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 79
-        width: 142
-        height: 118
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d0e492152e2b2b4b957572ea411bb48
-      internalID: -563273299
+      spriteID: f7ae2d2a951d5c04f9b573d1da51cb4f
+      internalID: -1725823436
       vertices: []
       indices: 
       edges: []
@@ -442,25 +337,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      glareSprite_mission-objective-sign_5: 1724242255
-      glareSprite_mission-objective-sign_3: -1091452193
-      glareSprite_mission-objective-sign_1: -1581690370
-      glareSprite_mission-objective-sign_7: -218016355
-      glareSprite_mission-objective-sign_10: 1810746264
-      glareSprite_mission-objective-sign_2: -1736827362
-      glareSprite_mission-objective-sign_15: -1615024582
-      glareSprite_mission-objective-sign_13: -293321980
-      glareSprite_mission-objective-sign_14: 1137898153
-      glareSprite_mission-objective-sign_16: -423645426
-      glareSprite_mission-objective-sign_18: 1655433397
-      glareSprite_mission-objective-sign_6: -772389950
-      glareSprite_mission-objective-sign_12: 1147762587
-      glareSprite_mission-objective-sign_0: -228228739
-      glareSprite_mission-objective-sign_9: 1970636175
-      glareSprite_mission-objective-sign_11: 675506018
-      glareSprite_mission-objective-sign_17: -563273299
-      glareSprite_mission-objective-sign_4: 1204905047
-      glareSprite_mission-objective-sign_8: -929545046
+      glareSprite_mission-objective-sign (1)_7: 1048404185
+      glareSprite_mission-objective-sign (1)_0: -634150007
+      glareSprite_mission-objective-sign (1)_4: 1302752379
+      glareSprite_mission-objective-sign (1)_1: -1032391343
+      glareSprite_mission-objective-sign (1)_9: -1725823436
+      glareSprite_mission-objective-sign (1)_8: 1758973509
+      glareSprite_mission-objective-sign (1)_2: 719751602
+      glareSprite_mission-objective-sign (1)_3: -1325437701
+      glareSprite_mission-objective-sign (1)_6: 1232439016
+      glareSprite_mission-objective-sign (1)_5: 874264646
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

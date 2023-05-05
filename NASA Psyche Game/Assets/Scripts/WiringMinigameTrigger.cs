@@ -7,7 +7,8 @@ public class WiringMinigameTrigger : Collidable
 {
     protected override void OnCollide(Collider2D coll) {
         if (coll.name == "Psychenaut") {
-            SceneManager.LoadScene(3);
+            // scene 4 is the wiring minigame
+            SceneManager.LoadScene("Basic_Wiring");
             gameObject.SetActive(false);
         }
     }
