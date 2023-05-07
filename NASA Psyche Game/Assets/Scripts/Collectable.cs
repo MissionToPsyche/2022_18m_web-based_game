@@ -19,7 +19,7 @@ public class Collectable : Collidable {
         Player player = coll.GetComponent<Player>();
 
         if (player) {
-            player.inventory.Add(this);
+            // player.inventory.Add(this);
             OnCollect();
         }
     }

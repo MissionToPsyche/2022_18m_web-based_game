@@ -13,6 +13,8 @@ public class Inventory
 
         public Sprite icon;
 
+        public Item itemInSlot;
+
         public Slot() {
             type = CollectableType.NONE;
             count = 0;
@@ -26,10 +28,15 @@ public class Inventory
             return false;
         }
 
-        public void AddItem(Collectable item) {
+        public void AddItem(Item item) {
             this.type = item.type;
             this.icon = item.icon;
+            this.itemInSlot = item;
             count++;
+        }
+
+        public Item getItem() {
+            return itemInSlot;
         }
     }
 
@@ -42,22 +49,17 @@ public class Inventory
         }
     }
 
-    public void Add(Collectable item) {
-        // foreach(Slot slot in slots) {
-        //     if (slot.type == item.type && slot.CanAddItem()) {
-        //         slot.AddItem(item);
-        //         return;
-        //     }
-        // }
-
-        // foreach(Slot slot in slots) {
-        //     if (slot.type == CollectableType.NONE) {
-        //         slot.AddItem(item);
-        //         return;
-        //     }
-        // }
-        // Debug.Log("Adding item at: " + item.collectableID);
+    public void Add(Item item) {
         slots[item.collectableID].AddItem(item);
-        return;
+    }
+
+    public void removeRespawnedItems() {
+        GameObject[] items = GameObject.FindGameObjectsWithTag("Item");
+        for (int i = 0; i < slots.Count; i++) {
+            if (slots[i].type.ToString() == "PART") {
+                Item curItem = slots[i].getItem();
+                UnityEngine.Object.Destroy(GameObject.Find(curItem.itemName));
+            }
+        }
     }
 }

@@ -29,6 +29,9 @@ public class Player : MonoBehaviour
         lastPos = myTransform.position;
 
         inventory = new Inventory(9);
+
+        // reset test
+        SaveGameInfoForMinigame.loadCurrentInfo();
     }
 
     // Update is called once per frame
