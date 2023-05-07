@@ -53,13 +53,13 @@ public class Inventory
         slots[item.collectableID].AddItem(item);
     }
 
-    public void removeRespawnedItems() {
-        GameObject[] items = GameObject.FindGameObjectsWithTag("Item");
-        for (int i = 0; i < slots.Count; i++) {
-            if (slots[i].type.ToString() == "PART") {
-                Item curItem = slots[i].getItem();
-                UnityEngine.Object.Destroy(GameObject.Find(curItem.itemName));
-            }
-        }
-    }
+    // public void removeRespawnedItems() {
+    //     GameObject[] items = GameObject.FindGameObjectsWithTag("Item");
+    //     for (int i = 0; i < slots.Count; i++) {
+    //         if (slots[i].type.ToString() == "PART") {
+    //             Item curItem = slots[i].getItem();
+    //             UnityEngine.Object.Destroy(GameObject.Find(curItem.itemName));
+    //         }
+    //     }
+    // }
 }

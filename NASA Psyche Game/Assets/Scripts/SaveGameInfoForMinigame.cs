@@ -23,7 +23,16 @@ public static class SaveGameInfoForMinigame {
             playerObj.transform.position = playerCurrentPos;
             GameObject.FindObjectOfType<Player>().inventory = currentInventory;
             GameObject.FindObjectOfType<ScoreManager>().score = currentScore;
+
+            GameObject[] items = GameObject.FindGameObjectsWithTag("Item");
+            for (int i = 0; i < GameObject.FindObjectOfType<Player>().inventory.slots.Count; i++) {
+                if (GameObject.FindObjectOfType<Player>().inventory.slots[i].type.ToString() == "PART") {
+                    Item curItem = GameObject.FindObjectOfType<Player>().inventory.slots[i].getItem();
+                    UnityEngine.Object.Destroy(GameObject.Find(curItem.itemName));
+                }
+            }
         }
-        GameObject.FindObjectOfType<Player>().inventory.removeRespawnedItems();
+        // GameObject.FindObjectOfType<Player>().inventory.removeRespawnedItems();
+        
     }
 }
