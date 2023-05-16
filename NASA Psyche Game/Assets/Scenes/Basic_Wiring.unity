@@ -197,7 +197,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: acc23ee6103cc2f46b35fa51e9b679a1, type: 3}
-  m_Color: {r: 0.02406025, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.03137255, g: 0.23137255, b: 0.98039216, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -550,7 +550,7 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 0.99215686, g: 0.07058824, b: 0.07058824, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -1027,7 +1027,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d443c9318121da4a83104fc373abc28, type: 2}
+  - {fileID: 2100000, guid: 5e1ac6e08cb2dba4baf8e2f38bf46f76, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1306,6 +1306,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Purple Wire
       objectReference: {fileID: 0}
+    - target: {fileID: 4592035103931737293, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4592035103931737293, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
+      propertyPath: m_Color.r
+      value: 0.77254903
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028770656745147847, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028770656745147847, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
+      propertyPath: m_Color.r
+      value: 0.77254903
+      objectReference: {fileID: 0}
     - target: {fileID: 6173366280387060391, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
       propertyPath: m_Color.b
       value: 0.7169812
@@ -1540,6 +1556,30 @@ PrefabInstance:
     - target: {fileID: 1469189916722008692, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
       propertyPath: m_Name
       value: Blue Wire
+      objectReference: {fileID: 0}
+    - target: {fileID: 4592035103931737293, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
+      propertyPath: m_Color.b
+      value: 0.98039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 4592035103931737293, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
+      propertyPath: m_Color.g
+      value: 0.23137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 4592035103931737293, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
+      propertyPath: m_Color.r
+      value: 0.03137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028770656745147847, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
+      propertyPath: m_Color.b
+      value: 0.98039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028770656745147847, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
+      propertyPath: m_Color.g
+      value: 0.23137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028770656745147847, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
+      propertyPath: m_Color.r
+      value: 0.03137255
       objectReference: {fileID: 0}
     - target: {fileID: 6173366280387060391, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
       propertyPath: m_Color.b
@@ -1969,7 +2009,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 7ebb28b1dbbb4cf458d57937a5d788a6, type: 3}
-  m_Color: {r: 0.03529412, g: 0.23529412, b: 0.9843137, a: 1}
+  m_Color: {r: 0.023529412, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -2359,7 +2399,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d443c9318121da4a83104fc373abc28, type: 2}
+  - {fileID: 2100000, guid: e32160cae3c647146b4e172126e7d934, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3070,7 +3110,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: acc23ee6103cc2f46b35fa51e9b679a1, type: 3}
-  m_Color: {r: 0.03332151, g: 0.23169152, b: 0.9811321, a: 1}
+  m_Color: {r: 0.023529412, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3090,6 +3130,26 @@ PrefabInstance:
     - target: {fileID: 1469189916722008692, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
       propertyPath: m_Name
       value: Green Wire
+      objectReference: {fileID: 0}
+    - target: {fileID: 4592035103931737293, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4592035103931737293, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
+      propertyPath: m_Color.r
+      value: 0.023529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028770656745147847, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028770656745147847, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028770656745147847, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
+      propertyPath: m_Color.r
+      value: 0.023529412
       objectReference: {fileID: 0}
     - target: {fileID: 6173366280387060391, guid: 0646311f9c55d2a48b1abe3a9567f244, type: 3}
       propertyPath: m_Color.b
@@ -3724,7 +3784,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d443c9318121da4a83104fc373abc28, type: 2}
+  - {fileID: 2100000, guid: 3d974673cb928cc4d8f571938268868d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3910,7 +3970,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d443c9318121da4a83104fc373abc28, type: 2}
+  - {fileID: 2100000, guid: a80bcf0eb3b7a2a46846cdb8d659eee5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4117,7 +4177,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 7ebb28b1dbbb4cf458d57937a5d788a6, type: 3}
-  m_Color: {r: 0.02745098, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.03137255, g: 0.23137255, b: 0.98039216, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
