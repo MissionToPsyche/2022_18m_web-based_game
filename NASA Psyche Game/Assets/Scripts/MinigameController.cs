@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MinigameController : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class MinigameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     public void AddVictoryPoints(int addedPoints)
@@ -37,5 +38,9 @@ public class MinigameController : MonoBehaviour
     {
         victoryMessage.display();
     }
+
+    // public static void DisplayInfo() {
+    //     FindObjectOfType<InfoPopupManager>().StartDialogue();
+    // }
 }
 

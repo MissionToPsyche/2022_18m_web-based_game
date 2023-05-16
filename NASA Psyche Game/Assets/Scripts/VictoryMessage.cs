@@ -18,7 +18,7 @@ public class VictoryMessage : MonoBehaviour
         gameObject.SetActive(true);
     }
 
-    private void OnMouseUp()
+    public void OnMouseUp()
     {
         SceneManager.LoadScene("Warehouse");
     }

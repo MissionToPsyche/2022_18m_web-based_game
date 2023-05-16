@@ -31,8 +31,14 @@ public static class SaveGameInfoForMinigame {
                     UnityEngine.Object.Destroy(GameObject.Find(curItem.itemName));
                 }
             }
+            // open doors
+            GameObject topDoor = GameObject.Find("locked_door_top");
+            GameObject bottomDoor = GameObject.Find("locked_door_bottom");
+            Animator topDoorAnim = topDoor.GetComponent<Animator>();
+            Animator botDoorAnim = bottomDoor.GetComponent<Animator>();
+
+            topDoorAnim.Play("DoorOpen", -1, 0f);
+            botDoorAnim.Play("DoorOpen", -1, 0f);
         }
-        // GameObject.FindObjectOfType<Player>().inventory.removeRespawnedItems();
-        
     }
 }

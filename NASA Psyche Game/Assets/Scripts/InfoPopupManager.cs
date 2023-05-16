@@ -6,7 +6,7 @@ using TMPro;
 public class InfoPopupManager : MonoBehaviour
 {
     // private Queue<string> sentences;
-    private GameObject diaBox;
+    public GameObject diaBox;
 
     // public TextMeshProUGUI nameText;
     // public TextMeshProUGUI dialogueText;
@@ -14,7 +14,7 @@ public class InfoPopupManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        diaBox = GameObject.Find("Info Popup");
+        // diaBox = GameObject.Find("Info Popup");
         diaBox.SetActive(false);
         // sentences = new Queue<string>();
     }
