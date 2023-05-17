@@ -31,6 +31,14 @@ public static class SaveGameInfoForMinigame {
                     UnityEngine.Object.Destroy(GameObject.Find(curItem.itemName));
                 }
             }
+
+            // flip player
+            GameObject.FindObjectOfType<Player>().transform.localScale = new Vector3(-1, 1, 1);
+
+            // destroy invis wall
+            var invisWall = GameObject.Find("Invisible Wall");
+            invisWall.SetActive(false);
+
             // open doors
             GameObject topDoor = GameObject.Find("locked_door_top");
             GameObject bottomDoor = GameObject.Find("locked_door_bottom");

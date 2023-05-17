@@ -5,12 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class WiringMinigameTrigger : Collidable
 {
+    public GameObject pointWarningDialogueBox;
+
     protected override void OnCollide(Collider2D coll) {
-        if (coll.name == "Psychenaut") {
-            // scene 4 is the wiring minigame
+        int currentScore = FindObjectOfType<ScoreManager>().score;
+        int endScore = FindObjectOfType<ScoreManager>().endScore;
+        if (coll.name == "Psychenaut" && currentScore == endScore) {
             SaveGameInfoForMinigame.saveCurrentInfo();
             SceneManager.LoadScene("Basic_Wiring");
             gameObject.SetActive(false);
+        }
+        else if (coll.name == "Psychenaut" && currentScore != endScore){
+            FindObjectOfType<WiringMinigameWarningManager>().TempDeactivateTrigger();
         }
     }
 }

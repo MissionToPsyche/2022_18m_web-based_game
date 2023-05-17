@@ -38,9 +38,5 @@ public class MinigameController : MonoBehaviour
     {
         victoryMessage.display();
     }
-
-    // public static void DisplayInfo() {
-    //     FindObjectOfType<InfoPopupManager>().StartDialogue();
-    // }
 }
 
