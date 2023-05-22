@@ -637,6 +637,8 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+  player: {fileID: 2012492287}
+  gravitationalForce: 0.0001
 --- !u!61 &32350851
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -650,7 +652,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.053834915, y: 0.014043808}
+  m_Offset: {x: 0.053835392, y: 0.04358387}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -661,7 +663,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5098591, y: 0.0958519}
+  m_Size: {x: 0.08386707, y: 0.026182175}
   m_EdgeRadius: 0
 --- !u!1 &47155142
 GameObject:
@@ -21403,6 +21405,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1242184810 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2924969544916271733, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
+  m_PrefabInstance: {fileID: 2924969544527524737}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1244240079
 GameObject:
   m_ObjectHideFlags: 0
@@ -124420,12 +124427,33 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2924969544916271735, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
   m_PrefabInstance: {fileID: 2924969544527524737}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1242184810}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66e7a436f1c4bba4c94c32223367de23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &2012492287
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242184810}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &2024632785
 GameObject:
   m_ObjectHideFlags: 0
@@ -124935,7 +124963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 480703670}
   score: 0
-  endScore: 1
+  endScore: 9
 --- !u!1 &2066554744
 GameObject:
   m_ObjectHideFlags: 0
@@ -125427,11 +125455,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2924969544916271737, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.82
+      value: 11.689
       objectReference: {fileID: 0}
     - target: {fileID: 2924969544916271737, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -18.05
+      value: -18.447
       objectReference: {fileID: 0}
     - target: {fileID: 2924969544916271737, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
       propertyPath: m_LocalPosition.z
