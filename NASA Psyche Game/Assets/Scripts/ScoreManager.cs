@@ -28,7 +28,7 @@ public class ScoreManager : MonoBehaviour
     }
 
     void Update() {
-        if (score == endScore && allCollected == false) {
+        if (score == endScore && allCollected == false && SaveGameInfoForMinigame.newGame == true) {
             GameObject itemDialogueBox = GameObject.Find("DialogueBox");
             if (!itemDialogueBox) {
                 allCollected = true;

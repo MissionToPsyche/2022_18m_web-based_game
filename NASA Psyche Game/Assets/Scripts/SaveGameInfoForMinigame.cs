@@ -24,6 +24,9 @@ public static class SaveGameInfoForMinigame {
             GameObject.FindObjectOfType<Player>().inventory = currentInventory;
             GameObject.FindObjectOfType<ScoreManager>().score = currentScore;
 
+            // don't display "all items collected" popup
+            GameObject.FindObjectOfType<ScoreManager>().allCollected = true;
+
             GameObject[] items = GameObject.FindGameObjectsWithTag("Item");
             for (int i = 0; i < GameObject.FindObjectOfType<Player>().inventory.slots.Count; i++) {
                 if (GameObject.FindObjectOfType<Player>().inventory.slots[i].type.ToString() == "PART") {

@@ -14,6 +14,7 @@ public class EndTrigger : Collidable
 
     protected override void OnCollide(Collider2D coll) {
         int currentScore = FindObjectOfType<ScoreManager>().score;
+        endScore = FindObjectOfType<ScoreManager>().endScore;
 
         if (coll.name == "Psychenaut" && currentScore == endScore) {
             //GetComponent<DialogueTrigger>().TriggerDialogue(endTitle, endMessage);

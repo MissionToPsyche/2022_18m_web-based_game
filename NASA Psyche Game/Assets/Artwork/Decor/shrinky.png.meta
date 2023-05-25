@@ -120,12 +120,12 @@ TextureImporter:
       name: shrinky_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1511
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 4
+        y: 1513
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,12 +141,12 @@ TextureImporter:
       name: shrinky_1
       rect:
         serializedVersion: 2
-        x: 406
-        y: 1511
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 411
+        y: 1513
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: shrinky_2
       rect:
         serializedVersion: 2
-        x: 812
-        y: 1511
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 816
+        y: 1513
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -183,12 +183,12 @@ TextureImporter:
       name: shrinky_3
       rect:
         serializedVersion: 2
-        x: 1218
-        y: 1511
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1223
+        y: 1513
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: shrinky_4
       rect:
         serializedVersion: 2
-        x: 1624
-        y: 1511
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1629
+        y: 1513
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: shrinky_5
       rect:
         serializedVersion: 2
-        x: 2030
-        y: 1511
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2035
+        y: 1513
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -246,12 +246,12 @@ TextureImporter:
       name: shrinky_6
       rect:
         serializedVersion: 2
-        x: 2436
-        y: 1511
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2441
+        y: 1513
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -267,12 +267,12 @@ TextureImporter:
       name: shrinky_7
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1133
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 4
+        y: 1136
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -288,12 +288,12 @@ TextureImporter:
       name: shrinky_8
       rect:
         serializedVersion: 2
-        x: 406
-        y: 1133
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 411
+        y: 1136
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -309,12 +309,12 @@ TextureImporter:
       name: shrinky_9
       rect:
         serializedVersion: 2
-        x: 812
-        y: 1133
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 816
+        y: 1136
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -330,12 +330,12 @@ TextureImporter:
       name: shrinky_10
       rect:
         serializedVersion: 2
-        x: 1218
-        y: 1133
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1223
+        y: 1136
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -351,12 +351,12 @@ TextureImporter:
       name: shrinky_11
       rect:
         serializedVersion: 2
-        x: 1624
-        y: 1133
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1629
+        y: 1136
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -372,12 +372,12 @@ TextureImporter:
       name: shrinky_12
       rect:
         serializedVersion: 2
-        x: 2030
-        y: 1133
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2035
+        y: 1136
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -393,12 +393,12 @@ TextureImporter:
       name: shrinky_13
       rect:
         serializedVersion: 2
-        x: 2436
-        y: 1133
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2441
+        y: 1136
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -414,12 +414,12 @@ TextureImporter:
       name: shrinky_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 756
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 4
+        y: 759
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -435,12 +435,12 @@ TextureImporter:
       name: shrinky_15
       rect:
         serializedVersion: 2
-        x: 406
-        y: 756
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 411
+        y: 758
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -456,12 +456,12 @@ TextureImporter:
       name: shrinky_16
       rect:
         serializedVersion: 2
-        x: 812
-        y: 756
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 816
+        y: 758
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -477,12 +477,12 @@ TextureImporter:
       name: shrinky_17
       rect:
         serializedVersion: 2
-        x: 1218
-        y: 756
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1223
+        y: 758
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -498,12 +498,12 @@ TextureImporter:
       name: shrinky_18
       rect:
         serializedVersion: 2
-        x: 1624
-        y: 756
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1629
+        y: 758
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -519,12 +519,12 @@ TextureImporter:
       name: shrinky_19
       rect:
         serializedVersion: 2
-        x: 2030
-        y: 756
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2034
+        y: 758
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -540,12 +540,12 @@ TextureImporter:
       name: shrinky_20
       rect:
         serializedVersion: 2
-        x: 2436
-        y: 756
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2441
+        y: 758
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -561,12 +561,12 @@ TextureImporter:
       name: shrinky_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 377
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 4
+        y: 380
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -582,12 +582,12 @@ TextureImporter:
       name: shrinky_22
       rect:
         serializedVersion: 2
-        x: 406
-        y: 377
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 411
+        y: 380
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -603,12 +603,12 @@ TextureImporter:
       name: shrinky_23
       rect:
         serializedVersion: 2
-        x: 812
-        y: 377
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 816
+        y: 380
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -624,12 +624,12 @@ TextureImporter:
       name: shrinky_24
       rect:
         serializedVersion: 2
-        x: 1218
-        y: 377
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1223
+        y: 379
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -645,12 +645,12 @@ TextureImporter:
       name: shrinky_25
       rect:
         serializedVersion: 2
-        x: 1624
-        y: 377
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1629
+        y: 380
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -666,12 +666,12 @@ TextureImporter:
       name: shrinky_26
       rect:
         serializedVersion: 2
-        x: 2030
-        y: 377
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2035
+        y: 380
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -687,12 +687,12 @@ TextureImporter:
       name: shrinky_27
       rect:
         serializedVersion: 2
-        x: 2436
-        y: 377
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2441
+        y: 380
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -708,12 +708,12 @@ TextureImporter:
       name: shrinky_28
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 4
+        y: 2
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -729,12 +729,12 @@ TextureImporter:
       name: shrinky_29
       rect:
         serializedVersion: 2
-        x: 406
-        y: 0
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 411
+        y: 2
+        width: 376
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -742,27 +742,6 @@ TextureImporter:
       bones: []
       spriteID: 62563e99578bd6b4db117a62bb580cc2
       internalID: -525727295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shrinky_end
-      rect:
-        serializedVersion: 2
-        x: 812
-        y: 377
-        width: 406
-        height: 376
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b243dd601ac63024492858e7d0247ad9
-      internalID: 352782263
       vertices: []
       indices: 
       edges: []
