@@ -28,16 +28,19 @@ public class ScoreManager : MonoBehaviour
     }
 
     void Update() {
-        if (score == endScore && allCollected == false && SaveGameInfoForMinigame.newGame == true) {
-            GameObject itemDialogueBox = GameObject.Find("DialogueBox");
+        GameObject itemDialogueBox = GameObject.Find("DialogueBox");
+        if (score == endScore && allCollected == false && SaveGameInfoForMinigame.newGame == true) { // 
             if (!itemDialogueBox) {
+                Debug.Log("ATTEMPTING TO PRINT");
+                // StartDialogue();
+                Invoke("StartDialogue", 0.1f);
                 allCollected = true;
-                StartDialogue();
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && allCollectedDialogueBox.activeSelf == true) {
+        if (Input.GetKeyDown(KeyCode.Space) && allCollectedDialogueBox.activeSelf == true) { //  
             EndDialogue();
+            Debug.Log("ended through space");
         }
     }
 
@@ -62,5 +65,6 @@ public class ScoreManager : MonoBehaviour
 
     public void EndDialogue() {
         allCollectedDialogueBox.SetActive(false);
+        Debug.Log("ended normally");
     }
 } 

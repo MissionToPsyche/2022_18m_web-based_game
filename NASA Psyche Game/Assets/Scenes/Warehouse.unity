@@ -2356,11 +2356,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8481929208185003225, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.829
+      value: -7.275
       objectReference: {fileID: 0}
     - target: {fileID: 8481929208185003225, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.058
+      value: -0.521
       objectReference: {fileID: 0}
     - target: {fileID: 8481929208185003225, guid: c08f1107e3c49a541af0e8ae9506c3d3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -128689,7 +128689,7 @@ MonoBehaviour:
   allCollectedDialogueBox: {fileID: 850405693}
   allCollected: 0
   score: 0
-  endScore: 1
+  endScore: 9
 --- !u!1 &2066554744
 GameObject:
   m_ObjectHideFlags: 0
@@ -129222,11 +129222,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2924969544916271737, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.231
+      value: -1.11
       objectReference: {fileID: 0}
     - target: {fileID: 2924969544916271737, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.391
+      value: -18.43
       objectReference: {fileID: 0}
     - target: {fileID: 2924969544916271737, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
       propertyPath: m_LocalPosition.z
