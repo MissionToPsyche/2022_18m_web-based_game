@@ -10,6 +10,9 @@ public class ScoreManager : MonoBehaviour
 
     public TextMeshProUGUI scoreText;
 
+    public GameObject allCollectedDialogueBox;
+    public bool allCollected = false;
+
     public int score = 0;
 
     public int endScore;
@@ -19,7 +22,23 @@ public class ScoreManager : MonoBehaviour
     }
     
     void Start() {
+        allCollected = false;
         scoreText.text = "Items collected: " + score.ToString() + "/" + endScore.ToString();
+        allCollectedDialogueBox.SetActive(false);
+    }
+
+    void Update() {
+        if (score == endScore && allCollected == false) {
+            GameObject itemDialogueBox = GameObject.Find("DialogueBox");
+            if (!itemDialogueBox) {
+                allCollected = true;
+                StartDialogue();
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space) && allCollectedDialogueBox.activeSelf == true) {
+            EndDialogue();
+        }
     }
 
     public void AddPoint(int point) {
@@ -35,5 +54,13 @@ public class ScoreManager : MonoBehaviour
     public void EnableText() {
         // Debug.Log("text enabled");
         scoreText.gameObject.SetActive(true);
+    }
+
+    public void StartDialogue() {
+        allCollectedDialogueBox.SetActive(true);
+    }
+
+    public void EndDialogue() {
+        allCollectedDialogueBox.SetActive(false);
     }
 } 

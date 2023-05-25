@@ -12,8 +12,11 @@ public class BlackHoleReset : Collidable {
     protected override void OnCollide(Collider2D coll) {
         if (coll.name == "Psychenaut") {
             // play some sort of animation for the screen to reset here
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             // Debug.Log("contacting black hole");
+
+            GameObject playerObj = GameObject.Find("Psychenaut");
+            playerObj.transform.position = new Vector3(-1.13f, -18.5f, 0f);
         }
     }
 

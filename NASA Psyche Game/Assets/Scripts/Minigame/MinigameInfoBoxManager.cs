@@ -12,6 +12,12 @@ public class MinigameInfoBoxManager : MonoBehaviour
         diaBox.SetActive(true);
     }
 
+    void Update() {
+        if (Input.GetKeyDown(KeyCode.Space) && diaBox.activeSelf == true) {
+            EndDialogue();
+        }
+    }
+
     public void StartDialogue() {
         diaBox.SetActive(true);
     }

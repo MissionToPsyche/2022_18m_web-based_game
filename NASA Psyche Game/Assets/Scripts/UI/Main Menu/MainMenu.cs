@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void Start() {
         FindObjectOfType<ScoreManager>().DisableText();
+        FindObjectOfType<HelpButton>().HideButton();
     }
 
     public void PlayGame()
@@ -14,6 +15,7 @@ public class MainMenu : MonoBehaviour
         // loads level with the next index in the build manages (Main_Menu = 0, Controls_Menu = 1, Disclaimer_Menu = 2, Warehouse = 3, Basic_Wiring = 4)
         SceneManager.LoadScene("Warehouse");
         FindObjectOfType<ScoreManager>().EnableText();
+        FindObjectOfType<HelpButton>().ShowButton();
     }
 
     public void QuitGame()

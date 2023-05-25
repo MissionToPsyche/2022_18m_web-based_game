@@ -21,6 +21,12 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();
     }
 
+    void Update() {
+        if (Input.GetKeyDown(KeyCode.Space) && diaBox.activeSelf == true) {
+            DisplayNextSentence();
+        }
+    }
+
     public void StartDialogue(Dialogue dialogue) {
         diaBox.SetActive(true);
         nameText.text = dialogue.name;
