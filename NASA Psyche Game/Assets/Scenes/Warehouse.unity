@@ -518,7 +518,7 @@ GameObject:
   - component: {fileID: 32350851}
   - component: {fileID: 32350850}
   m_Layer: 0
-  m_Name: Black Hole
+  m_Name: Black Hole (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -585,7 +585,7 @@ SpriteRenderer:
   m_SortingLayerID: -5569065
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -384873025, guid: 57331199def55f34584be568fa465a03, type: 3}
+  m_Sprite: {fileID: 795709064, guid: 8c0afbb95e4bf804e8ff5b114693a83a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -638,6 +638,7 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   player: {fileID: 2012492287}
+  pullDistance: 1.05
   gravitationalForce: 0.001
 --- !u!61 &32350851
 BoxCollider2D:
@@ -656,7 +657,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.27}
+    oldSize: {x: 0.97, y: 0.47}
     newSize: {x: 0.64, y: 0.27}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -790,7 +791,7 @@ GameObject:
   - component: {fileID: 48469715}
   - component: {fileID: 48469714}
   m_Layer: 0
-  m_Name: Black Hole (2)
+  m_Name: Black Hole (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -838,6 +839,7 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   player: {fileID: 2012492287}
+  pullDistance: 1.05
   gravitationalForce: 0.001
 --- !u!61 &48469715
 BoxCollider2D:
@@ -856,7 +858,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.27}
+    oldSize: {x: 0.97, y: 0.47}
     newSize: {x: 0.64, y: 0.27}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -926,7 +928,7 @@ SpriteRenderer:
   m_SortingLayerID: -5569065
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -384873025, guid: 57331199def55f34584be568fa465a03, type: 3}
+  m_Sprite: {fileID: 795709064, guid: 8c0afbb95e4bf804e8ff5b114693a83a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -21940,7 +21942,7 @@ GameObject:
   - component: {fileID: 1097838573}
   - component: {fileID: 1097838572}
   m_Layer: 0
-  m_Name: Black Hole (1)
+  m_Name: Black Hole (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21973,6 +21975,7 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   player: {fileID: 2012492287}
+  pullDistance: 1.05
   gravitationalForce: 0.001
 --- !u!61 &1097838573
 BoxCollider2D:
@@ -21991,7 +21994,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.27}
+    oldSize: {x: 0.97, y: 0.47}
     newSize: {x: 0.64, y: 0.27}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -22061,7 +22064,7 @@ SpriteRenderer:
   m_SortingLayerID: -5569065
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -384873025, guid: 57331199def55f34584be568fa465a03, type: 3}
+  m_Sprite: {fileID: 795709064, guid: 8c0afbb95e4bf804e8ff5b114693a83a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -24456,7 +24459,7 @@ GameObject:
   - component: {fileID: 1432184053}
   - component: {fileID: 1432184052}
   m_Layer: 0
-  m_Name: Black Hole (1)
+  m_Name: Black Hole (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24504,6 +24507,7 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   player: {fileID: 2012492287}
+  pullDistance: 1.05
   gravitationalForce: 0.001
 --- !u!61 &1432184053
 BoxCollider2D:
@@ -24522,7 +24526,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.27}
+    oldSize: {x: 0.97, y: 0.47}
     newSize: {x: 0.64, y: 0.27}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -24592,7 +24596,7 @@ SpriteRenderer:
   m_SortingLayerID: -5569065
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -384873025, guid: 57331199def55f34584be568fa465a03, type: 3}
+  m_Sprite: {fileID: 795709064, guid: 8c0afbb95e4bf804e8ff5b114693a83a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -123840,7 +123844,7 @@ GameObject:
   - component: {fileID: 1665136229}
   - component: {fileID: 1665136228}
   m_Layer: 0
-  m_Name: Black Hole (3)
+  m_Name: Black Hole (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123888,6 +123892,7 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   player: {fileID: 2012492287}
+  pullDistance: 1.05
   gravitationalForce: 0.001
 --- !u!61 &1665136229
 BoxCollider2D:
@@ -123906,7 +123911,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.27}
+    oldSize: {x: 0.97, y: 0.47}
     newSize: {x: 0.64, y: 0.27}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -123976,7 +123981,7 @@ SpriteRenderer:
   m_SortingLayerID: -5569065
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -384873025, guid: 57331199def55f34584be568fa465a03, type: 3}
+  m_Sprite: {fileID: 795709064, guid: 8c0afbb95e4bf804e8ff5b114693a83a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -124926,7 +124931,7 @@ GameObject:
   - component: {fileID: 1777437000}
   - component: {fileID: 1777436999}
   m_Layer: 0
-  m_Name: Black Hole
+  m_Name: Black Hole (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124974,6 +124979,7 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   player: {fileID: 2012492287}
+  pullDistance: 1.05
   gravitationalForce: 0.001
 --- !u!61 &1777437000
 BoxCollider2D:
@@ -124992,7 +124998,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.27}
+    oldSize: {x: 0.97, y: 0.47}
     newSize: {x: 0.64, y: 0.27}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -125062,7 +125068,7 @@ SpriteRenderer:
   m_SortingLayerID: -5569065
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -384873025, guid: 57331199def55f34584be568fa465a03, type: 3}
+  m_Sprite: {fileID: 795709064, guid: 8c0afbb95e4bf804e8ff5b114693a83a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -128059,6 +128065,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 480703670}
+  allCollectedDialogueBox: {fileID: 0}
+  allCollected: 0
   score: 0
   endScore: 9
 --- !u!1 &2066554744
@@ -128582,6 +128590,10 @@ PrefabInstance:
     - target: {fileID: 2924969544916271734, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
       propertyPath: m_SortingLayerID
       value: -2031926651
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924969544916271735, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
+      propertyPath: speed_multiplier
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2924969544916271737, guid: 1e28db79aeed4414f8795f56f8858c96, type: 3}
       propertyPath: m_RootOrder

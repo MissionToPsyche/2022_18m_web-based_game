@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class EndTrigger : Collidable
@@ -15,9 +16,15 @@ public class EndTrigger : Collidable
         int currentScore = FindObjectOfType<ScoreManager>().score;
 
         if (coll.name == "Psychenaut" && currentScore == endScore) {
-            GetComponent<DialogueTrigger>().TriggerDialogue(endTitle, endMessage);
-            gameObject.SetActive(false);
+            //GetComponent<DialogueTrigger>().TriggerDialogue(endTitle, endMessage);
+            //gameObject.SetActive(false);
+
+            // Switches to ending animation
+            SaveGameInfoForMinigame.resetGame();
+            SceneManager.LoadScene("End_Screen");
         }
+
+        
     }
 }
  

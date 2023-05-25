@@ -7,7 +7,8 @@ using System;
 public class BlackHoleReset : Collidable {
     public Rigidbody2D player;
 
-    [SerializeField] private float gravitationalForce = 0.5f;
+    [SerializeField] private float pullDistance = 1.05f;
+    [SerializeField] private float gravitationalForce = 0.75f;  // Does not seem to change intensity of force? 
 
     protected override void OnCollide(Collider2D coll) {
         if (coll.name == "Psychenaut") {
@@ -30,7 +31,7 @@ public class BlackHoleReset : Collidable {
         // Debug.Log("x val: " + directionOfPlayerFromBlackHole.x);
         // Debug.Log("y val: " + directionOfPlayerFromBlackHole.y);
 
-        if (distanceFromBlackHole <= 0.75) {
+        if (distanceFromBlackHole <= pullDistance) {
             // Adds the force towards the center
             player.AddForce(directionOfPlayerFromBlackHole * gravitationalForce);
         }

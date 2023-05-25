@@ -49,4 +49,8 @@ public static class SaveGameInfoForMinigame {
             botDoorAnim.Play("DoorOpen", -1, 0f);
         }
     }
+
+    public static void resetGame() {
+        newGame = true;
+    }
 }
