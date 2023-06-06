@@ -11,28 +11,27 @@ public class Collectable : Collidable {
 
     public int collectableID;
 
+    // when the player contacts the collectable item, process collection
     protected override void OnCollide(Collider2D coll) {
-        // if (coll.name == "Psychenaut") {
-        //     OnCollect();
-        // }
-
         Player player = coll.GetComponent<Player>();
 
         if (player) {
-            // player.inventory.Add(this);
             OnCollect();
         }
     }
 
+    // method that is run when an item is contacted
     protected virtual void OnCollect() {
         collected = true;
     }
 
+    // setter for item ID
     public void setID(int id) {
         this.collectableID = id;
     }
 }
 
+// enumerable types for collectables 
 public enum CollectableType {
     NONE, PART
 }

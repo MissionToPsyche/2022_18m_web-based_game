@@ -13,11 +13,13 @@ public class VictoryMessage : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    // display minigame win textbox
     public void display()
     {
         gameObject.SetActive(true);
     }
 
+    // return to warehouse scene
     public void OnMouseUp()
     {
         SceneManager.LoadScene("Warehouse");

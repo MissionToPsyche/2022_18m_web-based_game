@@ -17,6 +17,7 @@ public class MinigameController : MonoBehaviour
         
     }
 
+    // add points to total score
     public void AddVictoryPoints(int addedPoints)
     {
         victoryPoints += addedPoints;
@@ -34,6 +35,7 @@ public class MinigameController : MonoBehaviour
         }
     }
 
+    // display the victory message
     void DisplayVictory()
     {
         victoryMessage.display();

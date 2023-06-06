@@ -16,25 +16,23 @@ public class Item : Collectable
     public Sprite itemIcon;
 
     protected override void OnCollide(Collider2D coll) {
+        // set ID of item
         base.setID(itemID);
-        // Debug.Log("collectableID: " + this.collectableID);
 
+        // get player object
         Player player = coll.GetComponent<Player>();
 
+        // if the player contacted the item, add it to inventory and display textbox
         if (player) {
             player.inventory.Add(this);
             OnCollect();
         }
     }
 
+    // processes the item as collected, displays corresponding item textbox, and destroys the gameobject
     protected override void OnCollect() {
         if (!collected) {
             collected = true;
-
-            // base.setID(itemID);
-            // Debug.Log("collectableID: " + this.collectableID);
-
-            // GetComponent<Renderer>().enabled = !GetComponent<Renderer>().enabled;
 
             FindObjectOfType<ScoreManager>().AddPoint(itemValueAmount);
 

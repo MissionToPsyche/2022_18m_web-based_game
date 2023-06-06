@@ -15,11 +15,13 @@ public class Inventory_UI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // if tab or I are pressed, toggle the inventory
         if (Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.I)) {
             ToggleInventory();
         }
     }
 
+    // If the inventory is not active, show it. Otherwise, hide it.
     public void ToggleInventory() {
         if (!inventoryPanel.activeSelf) {
             inventoryPanel.SetActive(true);
@@ -30,6 +32,7 @@ public class Inventory_UI : MonoBehaviour
         }
     }
 
+    // populare each inventory slot with their corresponding items, if obtained
     void Setup() {
         if (slots.Count == player.inventory.slots.Count) {
             for (int i = 0; i < slots.Count; i++) {

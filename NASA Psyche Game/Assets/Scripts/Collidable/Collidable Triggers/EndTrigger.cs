@@ -13,12 +13,12 @@ public class EndTrigger : Collidable
     public string[] endMessage;
 
     protected override void OnCollide(Collider2D coll) {
+        // get current score/final score values
         int currentScore = FindObjectOfType<ScoreManager>().score;
         endScore = FindObjectOfType<ScoreManager>().endScore;
 
+        // if all items are collected, play end animation
         if (coll.name == "Psychenaut" && currentScore == endScore) {
-            //GetComponent<DialogueTrigger>().TriggerDialogue(endTitle, endMessage);
-            //gameObject.SetActive(false);
 
             // Switches to ending animation
             SaveGameInfoForMinigame.resetGame();

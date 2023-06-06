@@ -8,6 +8,7 @@ public static class SaveGameInfoForMinigame {
     public static int currentScore = 0;
     public static bool newGame = true;
 
+    // get current position, inventory, and scores and save them for future loading
     public static void saveCurrentInfo() {
         GameObject playerObj = GameObject.Find("Psychenaut");
         playerCurrentPos = playerObj.transform.position;
@@ -16,10 +17,16 @@ public static class SaveGameInfoForMinigame {
         newGame = false;
     }
 
+    // loads stored info
     public static void loadCurrentInfo() {
         GameObject playerObj = GameObject.Find("Psychenaut");
+
+        // if the game isn't a fresh start, load saved info
         if (!newGame) {
+            // disable minigame trigger
             GameObject.Find("Wiring Minigame Trigger").SetActive(false);
+
+            // reset player position, invnetory, and score
             playerObj.transform.position = playerCurrentPos;
             GameObject.FindObjectOfType<Player>().inventory = currentInventory;
             GameObject.FindObjectOfType<ScoreManager>().score = currentScore;
@@ -27,8 +34,10 @@ public static class SaveGameInfoForMinigame {
             // don't display "all items collected" popup
             GameObject.FindObjectOfType<ScoreManager>().allCollected = true;
 
+            // iterate through already collected items, and remove them from the map
             GameObject[] items = GameObject.FindGameObjectsWithTag("Item");
             for (int i = 0; i < GameObject.FindObjectOfType<Player>().inventory.slots.Count; i++) {
+                // if the item is collected already, remove it from the map
                 if (GameObject.FindObjectOfType<Player>().inventory.slots[i].type.ToString() == "PART") {
                     Item curItem = GameObject.FindObjectOfType<Player>().inventory.slots[i].getItem();
                     UnityEngine.Object.Destroy(GameObject.Find(curItem.itemName));
@@ -53,6 +62,7 @@ public static class SaveGameInfoForMinigame {
         }
     }
 
+    // set newGame flag to true
     public static void resetGame() {
         newGame = true;
     }

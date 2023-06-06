@@ -13,16 +13,19 @@ public class PosterManager : MonoBehaviour
         diaBox.SetActive(false);
     }
 
+    // if the textbox is active and the spacebar is pressed, advance text
     void Update() {
         if (Input.GetKeyDown(KeyCode.Space) && diaBox.activeSelf == true) {
             EndDialogue();
         }
     }
 
+    // show textbox
     public void StartDialogue() {
         diaBox.SetActive(true);
     }
 
+    // hide textbox
     public void EndDialogue() {
         diaBox.SetActive(false);
     }

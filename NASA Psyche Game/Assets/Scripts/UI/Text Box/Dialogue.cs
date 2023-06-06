@@ -12,11 +12,13 @@ public class Dialogue
 
     public Sprite itemIcon;
 
+    // initializes dialogue's title and body
     public Dialogue(string diagTitle, string[] diagBody) {
         name = diagTitle;
         sentences = diagBody;
     }
 
+    // initializes dialogue's title, body, and image
     public Dialogue(string diagTitle, string[] diagBody, Sprite icon) {
         name = diagTitle;
         sentences = diagBody;

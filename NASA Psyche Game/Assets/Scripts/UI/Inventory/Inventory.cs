@@ -21,6 +21,7 @@ public class Inventory
             maxAllowed = 1;
         }
 
+        // checks if the item can be added to the inventory
         public bool CanAddItem() {
             if (count < maxAllowed) {
                 return true;
@@ -28,6 +29,7 @@ public class Inventory
             return false;
         }
 
+        // adds item to the slot by assigning the type, icon, and item object
         public void AddItem(Item item) {
             this.type = item.type;
             this.icon = item.icon;
@@ -35,13 +37,16 @@ public class Inventory
             count++;
         }
 
+        // getter for item in slot
         public Item getItem() {
             return itemInSlot;
         }
     }
 
+    // intiialize list of slots
     public List<Slot> slots = new List<Slot>();
 
+    // initializes inventory object with assigned number of slots
     public Inventory(int numSlots) {
         for(int i = 0; i < numSlots; i++) {
             Slot slot = new Slot();
@@ -49,17 +54,8 @@ public class Inventory
         }
     }
 
+    // add item to its corresponding slot
     public void Add(Item item) {
         slots[item.collectableID].AddItem(item);
     }
-
-    // public void removeRespawnedItems() {
-    //     GameObject[] items = GameObject.FindGameObjectsWithTag("Item");
-    //     for (int i = 0; i < slots.Count; i++) {
-    //         if (slots[i].type.ToString() == "PART") {
-    //             Item curItem = slots[i].getItem();
-    //             UnityEngine.Object.Destroy(GameObject.Find(curItem.itemName));
-    //         }
-    //     }
-    // }
 }

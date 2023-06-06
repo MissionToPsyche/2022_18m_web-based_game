@@ -6,13 +6,14 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public void Start() {
+        // hides in game UI at the start of the game
         FindObjectOfType<ScoreManager>().DisableText();
         FindObjectOfType<HelpButton>().HideButton();
     }
 
     public void PlayGame()
     {
-        // loads level with the next index in the build manages (Main_Menu = 0, Controls_Menu = 1, Disclaimer_Menu = 2, Warehouse = 3, Basic_Wiring = 4)
+        // loads warehouse scene
         SceneManager.LoadScene("Warehouse");
         FindObjectOfType<ScoreManager>().EnableText();
         FindObjectOfType<HelpButton>().ShowButton();
@@ -26,13 +27,12 @@ public class MainMenu : MonoBehaviour
 
     public void OpenSettings()
     {
-        // Temporary, once more complicated controls/tutorials need to be added,
-        //   edit this function
+        // loads controls menu
         SceneManager.LoadScene("Controls_Menu");
-        //SceneManager.LoadScene("Settings");
     }
 
     public void OpenDisclaimer() {
+        // loads disclaimer menu
         SceneManager.LoadScene("Disclaimer_Menu");
     }
 }

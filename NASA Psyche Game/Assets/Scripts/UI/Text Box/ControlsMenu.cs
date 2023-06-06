@@ -7,7 +7,7 @@ public class ControlsMenu : MonoBehaviour
 {
     public void GoBack()
     {
-        // loads level with the next index in the build manages (menu = 0, controls = 1, warehouse = 2)
+        // loads main menu
         SceneManager.LoadScene("Main_Menu");
     }
 

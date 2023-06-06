@@ -21,6 +21,7 @@ public class ScoreManager : MonoBehaviour
         instance = this;
     }
     
+    // initialize score label and hide "all collected" message
     void Start() {
         allCollected = false;
         scoreText.text = "Items collected: " + score.ToString() + "/" + endScore.ToString();
@@ -29,42 +30,43 @@ public class ScoreManager : MonoBehaviour
 
     void Update() {
         GameObject itemDialogueBox = GameObject.Find("DialogueBox");
-        if (score == endScore && allCollected == false && SaveGameInfoForMinigame.newGame == true) { // 
+        // if all items are collected and the warehouse has never been reloaded, display "all collected" message
+        if (score == endScore && allCollected == false && SaveGameInfoForMinigame.newGame == true) { 
             if (!itemDialogueBox) {
-                Debug.Log("ATTEMPTING TO PRINT");
-                // StartDialogue();
                 Invoke("StartDialogue", 0.1f);
                 allCollected = true;
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && allCollectedDialogueBox.activeSelf == true) { //  
+        // if the textbox is active and the spacebar is pressed, advance text
+        if (Input.GetKeyDown(KeyCode.Space) && allCollectedDialogueBox.activeSelf == true) { 
             EndDialogue();
-            Debug.Log("ended through space");
         }
     }
 
+    // add point to score
     public void AddPoint(int point) {
         score += point;
         scoreText.text = "Items collected: " + score.ToString() + "/" + endScore.ToString();
     }
 
+    // hide score readout
     public void DisableText() {
-        // Debug.Log("text disabled");
         scoreText.gameObject.SetActive(false);
     }
 
+    // show score readout
     public void EnableText() {
-        // Debug.Log("text enabled");
         scoreText.gameObject.SetActive(true);
     }
 
+    // show textbox
     public void StartDialogue() {
         allCollectedDialogueBox.SetActive(true);
     }
 
+    // hide textbox
     public void EndDialogue() {
         allCollectedDialogueBox.SetActive(false);
-        Debug.Log("ended normally");
     }
 } 
