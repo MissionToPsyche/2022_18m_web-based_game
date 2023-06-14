@@ -13,6 +13,13 @@ public class Player : MonoBehaviour
     private Transform myTransform;
     private Vector3 lastPos;
 
+    public Inventory inventory;
+    public int speed_multiplier;
+
+    // private void Awake() {
+
+    // }
+
     //  Methods   //
     // Start is called before the first frame update
     private void Start()
@@ -21,6 +28,11 @@ public class Player : MonoBehaviour
         animator = gameObject.GetComponent<Animator>();
         myTransform = transform;
         lastPos = myTransform.position;
+
+        inventory = new Inventory(9);
+
+        // reset test
+        SaveGameInfoForMinigame.loadCurrentInfo();
     }
 
     // Update is called once per frame
@@ -45,7 +57,7 @@ public class Player : MonoBehaviour
         if (hit.collider == null)
         {
             //Make this thing move!
-            transform.Translate(0, moveDelta.y * Time.deltaTime * 5, 0);
+            transform.Translate(0, moveDelta.y * Time.deltaTime * speed_multiplier, 0);
         }
 
         //Make sure we can move in the X direction, by casting a box their first. If null, can move
@@ -53,7 +65,7 @@ public class Player : MonoBehaviour
         if (hit.collider == null)
         {
             //Make this thing move!
-            transform.Translate(moveDelta.x * Time.deltaTime  * 5, 0, 0);
+            transform.Translate(moveDelta.x * Time.deltaTime * speed_multiplier, 0, 0);
         }
 
         if (myTransform.position != lastPos) {
